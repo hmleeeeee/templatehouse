@@ -12,7 +12,7 @@
 # [templates] 구성
 ## [index.html]
 - 페이지 리스트
-## [components]
+## [html]
 - 페이지 HTML
 ## [resources]
 - 템플릿 리소스
