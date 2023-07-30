@@ -1,7 +1,5 @@
 ### url
-<a href="hmleeeeee.github.io/templatehouse/" title="템플릿하우스 바로가기">templetehouse</a>  
-[templetehouse](https://hmleeeeee.github.io/templatehouse/ "템플릿하우스 바로가기")  
-<a href="https://hmleeeeee.github.io/templatehouse/" title="템플릿하우스 바로가기" target="_blank">templetehouse</a>  
+[templetehouse](https://hmleeeeee.github.io/templatehouse/){:target="_blank"}
 
 # 기본 구성
 ## [index.html]
