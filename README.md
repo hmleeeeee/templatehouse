@@ -1,3 +1,4 @@
+# 템플릿하우스 템플릿
 # 기본 구성
 ## [index.html]
 - 컴포넌트 리스트
@@ -77,7 +78,7 @@ $(function () { ... });
 - template.css에 공통 변수 선언 후 사용 권장
 - 헤더와 푸터는 헤더모음과 푸터모음 코드를 활용
 - HTML 이미지 상대경로
-- ```html
+```html
 src="../resources/images/img_logo_white.png"
 ```
 - CSS 이미지 상대경로
