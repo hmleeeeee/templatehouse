@@ -1,8 +1,8 @@
 /* ========== */
-/* sample-N1 */
+/* template-N1 */
 (function () {
   $(function () {
-    $(".sample-N1").each(function () {
+    $(".template-N1").each(function () {
       const $block = $(this);
       // Mobile Lang
       $block.find(".header-langbtn").on("click", function () {
