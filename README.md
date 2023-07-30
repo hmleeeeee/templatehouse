@@ -1,4 +1,4 @@
-### url [templetehouse](https://hmleeeeee.github.io/templatehouse/codinglist.html){:target="_blank"}
+### url [templetehouse](https://hmleeeeee.github.io/templatehouse/codinglist.html)
 
 # 기본 구성
 ## [index.html]
