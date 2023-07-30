@@ -58,3 +58,29 @@
 ```html
 $(function () { ... });
 ```
+## [images]
+### `일반적인 이미지 파일(jpg, png)`
+- jpg : 사진형 이미지
+- png : 일러스트형 이미지
+## [icons]
+### `아이콘형 이미지 파일(svg)`
+- XD에서 '에셋 내보내기' 시 파일크기 '최적화(축소)' 체크
+- 1000px 이하의 jpg, png 이미지는 2배 사이즈로 추출
+## [videos]
+### `비디오 파일(mp4)`
+- mp4 파일만 사용
+# 퍼블리싱 규칙
+- 기본적인 웹표준을 준수한 블록 단위 퍼블리싱
+- HTML, CSS, JS : 블록 단위 주석 표시
+- 블록의 최상위 요소 클래스 : .template-N0
+- CSS 단위: rem (특별한 경우만 px 사용)
+- template.css에 공통 변수 선언 후 사용 권장
+- 헤더와 푸터는 헤더모음과 푸터모음 코드를 활용
+- HTML 이미지 상대경로
+- ```html
+src="../resources/images/img_logo_white.png"
+```
+- CSS 이미지 상대경로
+- ```html
+url('../icons/ico_downarrow_white.svg')
+```
