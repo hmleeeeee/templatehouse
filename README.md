@@ -26,7 +26,7 @@
 ```html
 @import url('//cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.3/swiper-bundle.css');
 ```
-### `block.css`
+#### `block.css`
 - 블록 스타일
 - 주석으로 블록 구분
 - compact 방식으로 코드 정렬
@@ -35,19 +35,19 @@
 .template-N1 .header-container { ... }
 ```
 ## [js]
-### `plugin.js`
+#### `plugin.js`
 - 외부 스크립트 코드 전체 통으로 붙여넣기
 - 최대한 압축본(min)으로 붙여넣기
 - 'sourceMappingURL' 관련 코드 삭제
 ```html
 //# sourceMappingURL=swiper-bundle.js.map
 ```
-### `template.js`
+#### `template.js`
 - 변수
 - 공통 스크립트
 - 컴포넌트 스크립트
 - Vanilla Javascript 사용
-### `block.js`
+#### `block.js`
 - 블록 스크립트
 - 주석으로 블록 구분
 - 블록 번호 순서대로 정렬(스크립트 없는 블록은 건너뜀)
@@ -60,15 +60,15 @@
 $(function () { ... });
 ```
 ## [images]
-### `일반적인 이미지 파일(jpg, png)`
+#### `일반적인 이미지 파일(jpg, png)`
 - jpg : 사진형 이미지
 - png : 일러스트형 이미지
 ## [icons]
-### `아이콘형 이미지 파일(svg)`
+#### `아이콘형 이미지 파일(svg)`
 - XD에서 '에셋 내보내기' 시 파일크기 '최적화(축소)' 체크
 - 1000px 이하의 jpg, png 이미지는 2배 사이즈로 추출
 ## [videos]
-### `비디오 파일(mp4)`
+#### `비디오 파일(mp4)`
 - mp4 파일만 사용
 # 퍼블리싱 규칙
 - 기본적인 웹표준을 준수한 블록 단위 퍼블리싱
