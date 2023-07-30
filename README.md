@@ -82,6 +82,6 @@ $(function () { ... });
 src="../resources/images/img_logo_white.png"
 ```
 - CSS 이미지 상대경로
-- ```html
+```html
 url('../icons/ico_downarrow_white.svg')
 ```
