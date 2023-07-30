@@ -1,5 +1,8 @@
 ### url
-<a href="[https://naver.com](https://hmleeeeee.github.io/templatehouse/)" target="_blank">templetehouse</a>  
+<a href="hmleeeeee.github.io/templatehouse/" title="템플릿하우스 바로가기">templetehouse</a>  
+[templetehouse](https://hmleeeeee.github.io/templatehouse/ "템플릿하우스 바로가기")  
+<a href="https://hmleeeeee.github.io/templatehouse/" title="템플릿하우스 바로가기" target="_blank">templetehouse</a>  
+
 # 기본 구성
 ## [index.html]
 - 컴포넌트 리스트
