@@ -19,7 +19,7 @@
 
 # [templates > resources] 구성
 ## [css]
-### `plugin.css`
+#### `plugin.css`
 - 외부 CDN URL
 - @import 방식으로 추가
 - URL에서 'http:', 'https:' 제거
