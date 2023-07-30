@@ -25,3 +25,36 @@
 ```html
 @import url('//cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.3/swiper-bundle.css');
 ```
+### `block.css`
+- 블록 스타일
+- 주석으로 블록 구분
+- compact 방식으로 코드 정렬
+- 모든 CSS 선언의 선택자는 '.template-N0'로 시작
+```html
+.template-N1 .header-container { ... }
+```
+## [js]
+### `plugin.js`
+- 외부 스크립트 코드 전체 통으로 붙여넣기
+- 최대한 압축본(min)으로 붙여넣기
+- 'sourceMappingURL' 관련 코드 삭제
+```html
+//# sourceMappingURL=swiper-bundle.js.map
+```
+### `template.js`
+- 변수
+- 공통 스크립트
+- 컴포넌트 스크립트
+- Vanilla Javascript 사용
+### `block.js`
+- 블록 스크립트
+- 주석으로 블록 구분
+- 블록 번호 순서대로 정렬(스크립트 없는 블록은 건너뜀)
+- 블록 별로 즉시실행함수로 감쌀 것
+```html
+(function () { ... })();
+```
+- jquery 구문 사용시 jquery($) 선언할 것
+```html
+$(function () { ... });
+```
