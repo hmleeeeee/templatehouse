@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>요소</title>
+  <!-- style -->
+  <link rel="stylesheet" href="./views/view.css">
+  <link rel="stylesheet" href="./resources/template.css">
+  <!-- //style -->
+</head>
+
+<body>
+  <!-- container -->
+  <div class="template-container">
+    <h1 class="template-title"></h1>
+    <div class="template-asset">
+      <div class="row">
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset">
+                <input id="radioset-a-1-1" name="radioset-a-1" class="radioset-input input-line" type="radio" aria-label="선택" value="" checked>
+                <label class="radioset-label" for="radioset-a-1-1"></label>
+              </div>
+              <div class="radioset">
+                <input id="radioset-a-1-2" name="radioset-a-1" class="radioset-input input-line" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-a-1-2"></label>
+              </div>
+              <div class="radioset">
+                <input id="radioset-a-1-3" name="radioset-a-1" class="radioset-input input-line" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-a-1-3"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset">
+                <input id="radioset-a-2-1" name="radioset-a-2" class="radioset-input input-line" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-a-2-1"></label>
+              </div>
+              <div class="radioset">
+                <input id="radioset-a-2-2" name="radioset-a-2" class="radioset-input input-line" type="radio" aria-label="선택" value="" disabled>
+                <label class="radioset-label" for="radioset-a-2-2"></label>
+              </div>
+              <div class="radioset">
+                <input id="radioset-a-2-3" name="radioset-a-2" class="radioset-input input-line" type="radio" aria-label="선택" value="" checked disabled>
+                <label class="radioset-label" for="radioset-a-2-3"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset">
+                <input id="radioset-a-3-1" name="radioset-a-3" class="radioset-input input-line" type="radio" value="" checked>
+                <label class="radioset-label" for="radioset-a-3-1"></label>
+                <span class="radioset-text">템플릿하우스</span>
+              </div>
+              <div class="radioset">
+                <input id="radioset-a-3-2" name="radioset-a-3" class="radioset-input input-line" type="radio" value="">
+                <label class="radioset-label" for="radioset-a-3-2"></label>
+                <span class="radioset-text">템플릿하우스</span>
+              </div>
+              <div class="radioset">
+                <input id="radioset-a-3-3" name="radioset-a-3" class="radioset-input input-line" type="radio" value="">
+                <label class="radioset-label" for="radioset-a-3-3"></label>
+                <span class="radioset-text">템플릿하우스</span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset radioset-sm">
+                <input id="radioset-a-4-1" name="radioset-a-4" class="radioset-input input-line" type="radio" aria-label="선택" value="" checked>
+                <label class="radioset-label" for="radioset-a-4-1"></label>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-a-4-2" name="radioset-a-4" class="radioset-input input-line" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-a-4-2"></label>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-a-4-3" name="radioset-a-4" class="radioset-input input-line" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-a-4-3"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset radioset-sm">
+                <input id="radioset-a-5-1" name="radioset-a-5" class="radioset-input input-line" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-a-5-1"></label>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-a-5-2" name="radioset-a-5" class="radioset-input input-line" type="radio" aria-label="선택" value="" disabled>
+                <label class="radioset-label" for="radioset-a-5-2"></label>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-a-5-3" name="radioset-a-5" class="radioset-input input-line" type="radio" aria-label="선택" value="" checked disabled>
+                <label class="radioset-label" for="radioset-a-5-3"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset radioset-sm">
+                <input id="radioset-a-6-1" name="radioset-a-6" class="radioset-input input-line" type="radio" value="" checked>
+                <label class="radioset-label" for="radioset-a-6-1"></label>
+                <span class="radioset-text">템플릿하우스</span>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-a-6-2" name="radioset-a-6" class="radioset-input input-line" type="radio" value="">
+                <label class="radioset-label" for="radioset-a-6-2"></label>
+                <span class="radioset-text">템플릿하우스</span>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-a-6-3" name="radioset-a-6" class="radioset-input input-line" type="radio" value="">
+                <label class="radioset-label" for="radioset-a-6-3"></label>
+                <span class="radioset-text">템플릿하우스</span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset">
+                <input id="radioset-b-1-1" name="radioset-b-1" class="radioset-input input-fill" type="radio" aria-label="선택" value="" checked>
+                <label class="radioset-label" for="radioset-b-1-1"></label>
+              </div>
+              <div class="radioset">
+                <input id="radioset-b-1-2" name="radioset-b-1" class="radioset-input input-fill" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-b-1-2"></label>
+              </div>
+              <div class="radioset">
+                <input id="radioset-b-1-3" name="radioset-b-1" class="radioset-input input-fill" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-b-1-3"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset">
+                <input id="radioset-b-2-1" name="radioset-b-2" class="radioset-input input-fill" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-b-2-1"></label>
+              </div>
+              <div class="radioset">
+                <input id="radioset-b-2-2" name="radioset-b-2" class="radioset-input input-fill" type="radio" aria-label="선택" value="" disabled>
+                <label class="radioset-label" for="radioset-b-2-2"></label>
+              </div>
+              <div class="radioset">
+                <input id="radioset-b-2-3" name="radioset-b-2" class="radioset-input input-fill" type="radio" aria-label="선택" value="" checked disabled>
+                <label class="radioset-label" for="radioset-b-2-3"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset">
+                <input id="radioset-b-3-1" name="radioset-b-3" class="radioset-input input-fill" type="radio" value="" checked>
+                <label class="radioset-label" for="radioset-b-3-1"></label>
+              </div>
+              <div class="radioset">
+                <input id="radioset-b-3-2" name="radioset-b-3" class="radioset-input input-fill" type="radio" value="">
+                <label class="radioset-label" for="radioset-b-3-2"></label>
+              </div>
+              <div class="radioset">
+                <input id="radioset-b-3-3" name="radioset-b-3" class="radioset-input input-fill" type="radio" value="">
+                <label class="radioset-label" for="radioset-b-3-3"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset radioset-sm">
+                <input id="radioset-b-4-1" name="radioset-b-4" class="radioset-input input-fill" type="radio" aria-label="선택" value="" checked>
+                <label class="radioset-label" for="radioset-b-4-1"></label>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-b-4-2" name="radioset-b-4" class="radioset-input input-fill" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-b-4-2"></label>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-b-4-3" name="radioset-b-4" class="radioset-input input-fill" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-b-4-3"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset radioset-sm">
+                <input id="radioset-b-5-1" name="radioset-b-5" class="radioset-input input-fill" type="radio" aria-label="선택" value="">
+                <label class="radioset-label" for="radioset-b-5-1"></label>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-b-5-2" name="radioset-b-5" class="radioset-input input-fill" type="radio" aria-label="선택" value="" disabled>
+                <label class="radioset-label" for="radioset-b-5-2"></label>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-b-5-3" name="radioset-b-5" class="radioset-input input-fill" type="radio" aria-label="선택" value="" checked disabled>
+                <label class="radioset-label" for="radioset-b-5-3"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset radioset-sm">
+                <input id="radioset-b-6-1" name="radioset-b-6" class="radioset-input input-fill" type="radio" value="" checked>
+                <label class="radioset-label" for="radioset-b-6-1"></label>
+                <span class="radioset-text">템플릿하우스</span>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-b-6-2" name="radioset-b-6" class="radioset-input input-fill" type="radio" value="">
+                <label class="radioset-label" for="radioset-b-6-2"></label>
+                <span class="radioset-text">템플릿하우스</span>
+              </div>
+              <div class="radioset radioset-sm">
+                <input id="radioset-b-6-3" name="radioset-b-6" class="radioset-input input-fill" type="radio" value="">
+                <label class="radioset-label" for="radioset-b-6-3"></label>
+                <span class="radioset-text">템플릿하우스</span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset-wrap">
+                <div class="radioset">
+                  <input id="radioset-c-1-1" name="radioset-c-1" class="visually-hidden" type="radio" value="" checked>
+                  <label class="radioset-thumb thumb-round" for="radioset-c-1-1">템플릿</label>
+                </div>
+                <div class="radioset">
+                  <input id="radioset-c-1-2" name="radioset-c-1" class="visually-hidden" type="radio" value="">
+                  <label class="radioset-thumb thumb-round" for="radioset-c-1-2">하우스</label>
+                </div>
+                <div class="radioset">
+                  <input id="radioset-c-1-3" name="radioset-c-1" class="visually-hidden" type="radio" value="" disabled>
+                  <label class="radioset-thumb thumb-round" for="radioset-c-1-3">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset-wrap">
+                <div class="radioset radioset-sm">
+                  <input id="radioset-c-2-1" name="radioset-c-2" class="visually-hidden" type="radio" value="" checked>
+                  <label class="radioset-thumb thumb-round" for="radioset-c-2-1">템플릿</label>
+                </div>
+                <div class="radioset radioset-sm">
+                  <input id="radioset-c-2-2" name="radioset-c-2" class="visually-hidden" type="radio" value="">
+                  <label class="radioset-thumb thumb-round" for="radioset-c-2-2">하우스</label>
+                </div>
+                <div class="radioset radioset-sm">
+                  <input id="radioset-c-2-3" name="radioset-c-2" class="visually-hidden" type="radio" value="" disabled>
+                  <label class="radioset-thumb thumb-round" for="radioset-c-2-3">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset-wrap">
+                <div class="radioset">
+                  <input id="radioset-c-3-1" name="radioset-c-3" class="visually-hidden" type="radio" value="" checked>
+                  <label class="radioset-thumb thumb-square" for="radioset-c-3-1">템플릿</label>
+                </div>
+                <div class="radioset">
+                  <input id="radioset-c-3-2" name="radioset-c-3" class="visually-hidden" type="radio" value="">
+                  <label class="radioset-thumb thumb-square" for="radioset-c-3-2">하우스</label>
+                </div>
+                <div class="radioset">
+                  <input id="radioset-c-3-3" name="radioset-c-3" class="visually-hidden" type="radio" value="" disabled>
+                  <label class="radioset-thumb thumb-square" for="radioset-c-3-3">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="radioset-wrap">
+                <div class="radioset radioset-sm">
+                  <input id="radioset-c-4-1" name="radioset-c-4" class="visually-hidden" type="radio" value="" checked>
+                  <label class="radioset-thumb thumb-square" for="radioset-c-4-1">템플릿</label>
+                </div>
+                <div class="radioset radioset-sm">
+                  <input id="radioset-c-4-2" name="radioset-c-4" class="visually-hidden" type="radio" value="">
+                  <label class="radioset-thumb thumb-square" for="radioset-c-4-2">하우스</label>
+                </div>
+                <div class="radioset radioset-sm">
+                  <input id="radioset-c-4-3" name="radioset-c-4" class="visually-hidden" type="radio" value="" disabled>
+                  <label class="radioset-thumb thumb-square" for="radioset-c-4-3">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //container -->
+
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./views/view.js"></script>
+  <script src="./resources/template.js"></script>
+  <!-- //script -->
+</body>
+
+</html>

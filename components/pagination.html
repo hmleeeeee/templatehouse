@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>요소</title>
+  <!-- style -->
+  <link rel="stylesheet" href="./views/view.css">
+  <link rel="stylesheet" href="./resources/template.css">
+  <!-- //style -->
+</head>
+
+<body>
+  <!-- container -->
+  <div class="template-container">
+    <h1 class="template-title"></h1>
+    <div class="template-asset">
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset">
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                    <span class="visually-hidden">처음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                    <span class="visually-hidden">이전</span>
+                  </a>
+                </div>
+                <div class="pagiset-list">
+                  <a class="pagiset-link active-line" href="javascript:void(0)">1</a>
+                  <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  <a class="pagiset-link" href="javascript:void(0)">3</a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                    <span class="visually-hidden">다음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                    <span class="visually-hidden">마지막</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-circ">
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                    <span class="visually-hidden">처음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                    <span class="visually-hidden">이전</span>
+                  </a>
+                </div>
+                <div class="pagiset-list">
+                  <a class="pagiset-link active-line" href="javascript:void(0)">1</a>
+                  <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  <a class="pagiset-link" href="javascript:void(0)">3</a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                    <span class="visually-hidden">다음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                    <span class="visually-hidden">마지막</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-line">
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                    <span class="visually-hidden">처음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                    <span class="visually-hidden">이전</span>
+                  </a>
+                </div>
+                <div class="pagiset-list">
+                  <a class="pagiset-link active-line" href="javascript:void(0)">1</a>
+                  <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  <a class="pagiset-link" href="javascript:void(0)">3</a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                    <span class="visually-hidden">다음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                    <span class="visually-hidden">마지막</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-circ pagiset-line">
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                    <span class="visually-hidden">처음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                    <span class="visually-hidden">이전</span>
+                  </a>
+                </div>
+                <div class="pagiset-list">
+                  <a class="pagiset-link active-line" href="javascript:void(0)">1</a>
+                  <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  <a class="pagiset-link" href="javascript:void(0)">3</a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                    <span class="visually-hidden">다음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                    <span class="visually-hidden">마지막</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset">
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                    <span class="visually-hidden">처음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                    <span class="visually-hidden">이전</span>
+                  </a>
+                </div>
+                <div class="pagiset-list">
+                  <a class="pagiset-link active-fill" href="javascript:void(0)">1</a>
+                  <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  <a class="pagiset-link" href="javascript:void(0)">3</a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                    <span class="visually-hidden">다음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                    <span class="visually-hidden">마지막</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-circ">
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                    <span class="visually-hidden">처음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                    <span class="visually-hidden">이전</span>
+                  </a>
+                </div>
+                <div class="pagiset-list">
+                  <a class="pagiset-link active-fill" href="javascript:void(0)">1</a>
+                  <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  <a class="pagiset-link" href="javascript:void(0)">3</a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                    <span class="visually-hidden">다음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                    <span class="visually-hidden">마지막</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-line">
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                    <span class="visually-hidden">처음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                    <span class="visually-hidden">이전</span>
+                  </a>
+                </div>
+                <div class="pagiset-list">
+                  <a class="pagiset-link active-fill" href="javascript:void(0)">1</a>
+                  <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  <a class="pagiset-link" href="javascript:void(0)">3</a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                    <span class="visually-hidden">다음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                    <span class="visually-hidden">마지막</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-circ pagiset-line">
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                    <span class="visually-hidden">처음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                    <span class="visually-hidden">이전</span>
+                  </a>
+                </div>
+                <div class="pagiset-list">
+                  <a class="pagiset-link active-fill" href="javascript:void(0)">1</a>
+                  <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  <a class="pagiset-link" href="javascript:void(0)">3</a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                    <span class="visually-hidden">다음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                    <span class="visually-hidden">마지막</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-fract">
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                    <span class="visually-hidden">처음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                    <span class="visually-hidden">이전</span>
+                  </a>
+                </div>
+                <div class="pagiset-text">
+                  <strong>1</strong> / <span>5</span>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                    <span class="visually-hidden">다음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                    <span class="visually-hidden">마지막</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-fract pagiset-line">
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                    <span class="visually-hidden">처음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                    <span class="visually-hidden">이전</span>
+                  </a>
+                </div>
+                <div class="pagiset-text">
+                  <strong>1</strong> / <span>5</span>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                    <span class="visually-hidden">다음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                    <span class="visually-hidden">마지막</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-fract pagiset-line pagiset-circ">
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                    <span class="visually-hidden">처음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                    <span class="visually-hidden">이전</span>
+                  </a>
+                </div>
+                <div class="pagiset-text">
+                  <strong>1</strong> / <span>5</span>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                    <span class="visually-hidden">다음</span>
+                  </a>
+                </div>
+                <div class="pagiset-ctrl">
+                  <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                    <span class="visually-hidden">마지막</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-assem">
+                <ul class="pagiset-list">
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                      <span class="visually-hidden">처음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                      <span class="visually-hidden">이전</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link active-line" href="javascript:void(0)">1</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">3</a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                      <span class="visually-hidden">다음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                      <span class="visually-hidden">마지막</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-assem">
+                <ul class="pagiset-list">
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                      <span class="visually-hidden">처음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                      <span class="visually-hidden">이전</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link active-fill" href="javascript:void(0)">1</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">3</a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                      <span class="visually-hidden">다음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                      <span class="visually-hidden">마지막</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-assem assem-round">
+                <ul class="pagiset-list">
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                      <span class="visually-hidden">처음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                      <span class="visually-hidden">이전</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link active-line" href="javascript:void(0)">1</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">3</a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                      <span class="visually-hidden">다음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                      <span class="visually-hidden">마지막</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-assem assem-round">
+                <ul class="pagiset-list">
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                      <span class="visually-hidden">처음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                      <span class="visually-hidden">이전</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link active-fill" href="javascript:void(0)">1</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">3</a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                      <span class="visually-hidden">다음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                      <span class="visually-hidden">마지막</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-assem assem-circ">
+                <ul class="pagiset-list">
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                      <span class="visually-hidden">처음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                      <span class="visually-hidden">이전</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link active-line" href="javascript:void(0)">1</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">3</a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                      <span class="visually-hidden">다음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                      <span class="visually-hidden">마지막</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <nav class="pagiset pagiset-assem assem-circ">
+                <ul class="pagiset-list">
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-first" href="javascript:void(0)">
+                      <span class="visually-hidden">처음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-prev" href="javascript:void(0)">
+                      <span class="visually-hidden">이전</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link active-fill" href="javascript:void(0)">1</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">2</a>
+                  </li>
+                  <li class="pagiset-item">
+                    <a class="pagiset-link" href="javascript:void(0)">3</a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-next" href="javascript:void(0)">
+                      <span class="visually-hidden">다음</span>
+                    </a>
+                  </li>
+                  <li class="pagiset-ctrl">
+                    <a class="pagiset-link pagiset-last" href="javascript:void(0)">
+                      <span class="visually-hidden">마지막</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="pagiset">
+                <button class="pagiset-more icon-plus btn" type="button">
+                  <span class="visually-hidden">더보기</span>
+                </button>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="pagiset">
+                <button class="pagiset-more icon-plus btn" type="button">
+                  <span>더보기</span>
+                </button>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="pagiset">
+                <button class="pagiset-more icon-arrow btn" type="button">
+                  <span>더보기</span>
+                </button>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- //container -->
+
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./views/view.js"></script>
+  <script src="./resources/template.js"></script>
+  <!-- //script -->
+</body>
+
+</html>

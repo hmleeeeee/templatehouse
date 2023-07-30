@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>요소</title>
+  <!-- style -->
+  <link rel="stylesheet" href="./views/view.css">
+  <link rel="stylesheet" href="./resources/template.css">
+  <!-- //style -->
+</head>
+
+<body>
+  <!-- container -->
+  <div class="template-container">
+    <h1 class="template-title"></h1>
+    <div class="template-asset">
+      <div class="row">
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html" style="width: 100%;">
+              <div class="dropset dropset-solid dropset-xl">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요 템플릿을 선택하세요 템플릿을 선택하세요</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-solid dropset-lg">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-solid">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-solid dropset-sm">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-solid dropset-xs">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html" style="width: 100%;">
+              <div class="dropset dropset-relax dropset-xl">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요 템플릿을 선택하세요 템플릿을 선택하세요</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-relax dropset-lg">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-relax">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-relax dropset-sm">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-relax dropset-xs">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-narrow dropset-xl">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-narrow dropset-lg">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿 선택</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-narrow">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-narrow dropset-sm">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-narrow dropset-xs">
+                <button class="dropset-toggle btn" type="button">
+                  <span>템플릿</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿1</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿2</span>
+                    </a>
+                  </li>
+                  <li class="dropset-item">
+                    <a class="dropset-link btn" href="javascript:void(0)">
+                      <span>템플릿3</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="d-flex">
+                <div class="dropset dropset-solid">
+                  <div class="dropset-head"></div>
+                </div>
+                <div class="dropset dropset-solid">
+                  <button class="dropset-toggle btn" type="button">
+                    <span>템플릿</span>
+                  </button>
+                  <ul class="dropset-list">
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿1</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿2</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿3</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropset dropset-solid">
+                  <button class="dropset-toggle btn" type="button">
+                    <span>템플릿</span>
+                  </button>
+                  <ul class="dropset-list">
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿1</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿2</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿3</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="d-flex">
+                <div class="dropset dropset-relax">
+                  <div class="dropset-head"></div>
+                </div>
+                <div class="dropset dropset-relax">
+                  <button class="dropset-toggle btn" type="button">
+                    <span>템플릿</span>
+                  </button>
+                  <ul class="dropset-list">
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿1</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿2</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿3</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropset dropset-relax">
+                  <button class="dropset-toggle btn" type="button">
+                    <span>템플릿</span>
+                  </button>
+                  <ul class="dropset-list">
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿1</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿2</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿3</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="d-flex justify-content-start">
+                <div class="dropset dropset-narrow">
+                  <div class="dropset-head"></div>
+                </div>
+                <div class="dropset dropset-narrow">
+                  <button class="dropset-toggle btn" type="button">
+                    <span>템플릿</span>
+                  </button>
+                  <ul class="dropset-list">
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿1</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿2</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿3</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropset dropset-narrow">
+                  <button class="dropset-toggle btn" type="button">
+                    <span>템플릿</span>
+                  </button>
+                  <ul class="dropset-list">
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿1</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿2</span>
+                      </a>
+                    </li>
+                    <li class="dropset-item">
+                      <a class="dropset-link btn" href="javascript:void(0)">
+                        <span>템플릿3</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-solid dropset-xl">
+                <button class="dropset-toggle btn" type="button">
+                  <span>BUTTON 태그 리스트</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-solid dropset-lg">
+                <button class="dropset-toggle btn" type="button">
+                  <span>BUTTON 태그 리스트</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="padding-bottom: 100px;">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-solid">
+                <button class="dropset-toggle btn" type="button">
+                  <span>BUTTON 태그 리스트</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-solid dropset-sm">
+                <button class="dropset-toggle btn" type="button">
+                  <span>BUTTON 태그 리스트</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="dropset dropset-solid dropset-xs">
+                <button class="dropset-toggle btn" type="button">
+                  <span>BUTTON 태그 리스트</span>
+                </button>
+                <ul class="dropset-list">
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="dropset-item">
+                    <button class="dropset-link btn" type="button">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //container -->
+
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./views/view.js"></script>
+  <script src="./resources/template.js"></script>
+  <!-- //script -->
+</body>
+
+</html>

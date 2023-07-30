@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>요소</title>
+  <!-- style -->
+  <link rel="stylesheet" href="./views/view.css">
+  <link rel="stylesheet" href="./resources/template.css">
+  <!-- //style -->
+</head>
+
+<body>
+  <!-- container -->
+  <div class="template-container">
+    <h1 class="template-title"></h1>
+    <div class="template-asset">
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-lg">
+                <button class="selectset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset">
+                <button class="selectset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-sm">
+                <button class="selectset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-sm">
+                <button class="selectset-toggle btn" type="button" disabled>
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-line selectset-lg">
+                <button class="selectset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-line">
+                <button class="selectset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-line selectset-sm">
+                <button class="selectset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-line selectset-sm">
+                <button class="selectset-toggle btn" type="button" disabled>
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-round selectset-lg">
+                <button class="selectset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-round">
+                <button class="selectset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-round selectset-sm">
+                <button class="selectset-toggle btn" type="button">
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-round selectset-sm">
+                <button class="selectset-toggle btn" type="button" disabled>
+                  <span>템플릿을 선택하세요</span>
+                </button>
+                <ul class="selectset-list">
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿1">
+                      <span>템플릿1</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿2">
+                      <span>템플릿2</span>
+                    </button>
+                  </li>
+                  <li class="selectset-item">
+                    <button class="selectset-link btn" type="button" data-value="템플릿3">
+                      <span>템플릿3</span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="row">
+                <div class="col">
+                  <div class="selectset selectset-lg">
+                    <button class="selectset-toggle btn" type="button">
+                      <span>1234</span>
+                    </button>
+                    <ul class="selectset-list">
+                      <li class="selectset-item">
+                        <button class="selectset-link btn" type="button" data-value="1234">
+                          <span>1234</span>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="selectset selectset-lg">
+                    <button class="selectset-toggle btn" type="button">
+                      <span>1234</span>
+                    </button>
+                    <ul class="selectset-list">
+                      <li class="selectset-item">
+                        <button class="selectset-link btn" type="button" data-value="1234">
+                          <span>1234</span>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="row">
+                <div class="col">
+                  <div class="selectset">
+                    <button class="selectset-toggle btn" type="button">
+                      <span>1234</span>
+                    </button>
+                    <ul class="selectset-list">
+                      <li class="selectset-item">
+                        <button class="selectset-link btn" type="button" data-value="1234">
+                          <span>1234</span>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="selectset">
+                    <button class="selectset-toggle btn" type="button">
+                      <span>1234</span>
+                    </button>
+                    <ul class="selectset-list">
+                      <li class="selectset-item">
+                        <button class="selectset-link btn" type="button" data-value="1234">
+                          <span>1234</span>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="row">
+                <div class="col">
+                  <div class="selectset selectset-sm">
+                    <button class="selectset-toggle btn" type="button">
+                      <span>1234</span>
+                    </button>
+                    <ul class="selectset-list">
+                      <li class="selectset-item">
+                        <button class="selectset-link btn" type="button" data-value="1234">
+                          <span>1234</span>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="selectset selectset-sm">
+                    <button class="selectset-toggle btn" type="button">
+                      <span>1234</span>
+                    </button>
+                    <ul class="selectset-list">
+                      <li class="selectset-item">
+                        <button class="selectset-link btn" type="button" data-value="1234">
+                          <span>1234</span>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-lg">
+                <select class="selectset-select" aria-label="선택">
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset">
+                <select class="selectset-select" aria-label="선택">
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-sm">
+                <select class="selectset-select" aria-label="선택">
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-sm selectset-disabled">
+                <select class="selectset-select" aria-label="선택" disabled>
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-line selectset-lg">
+                <select class="selectset-select" aria-label="선택">
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-line">
+                <select class="selectset-select" aria-label="선택">
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-line selectset-sm">
+                <select class="selectset-select" aria-label="선택">
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-line selectset-sm selectset-disabled">
+                <select class="selectset-select" aria-label="선택" disabled>
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-round selectset-lg">
+                <select class="selectset-select" aria-label="선택">
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-round">
+                <select class="selectset-select" aria-label="선택">
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-round selectset-sm">
+                <select class="selectset-select" aria-label="선택">
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="selectset selectset-round selectset-sm selectset-disabled">
+                <select class="selectset-select" aria-label="선택" disabled>
+                  <option selected>템플릿을 선택하세요</option>
+                  <option value="템플릿1">템플릿1</option>
+                  <option value="템플릿2">템플릿2</option>
+                  <option value="템플릿3">템플릿3</option>
+                </select>
+                <span class="selectset-arrow"></span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="row">
+                <div class="col">
+                  <div class="selectset selectset-lg">
+                    <select class="selectset-select" aria-label="선택">
+                      <option selected>1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                    </select>
+                    <span class="selectset-arrow"></span>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="selectset selectset-lg">
+                    <select class="selectset-select" aria-label="선택">
+                      <option selected>1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                    </select>
+                    <span class="selectset-arrow"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="row">
+                <div class="col">
+                  <div class="selectset">
+                    <select class="selectset-select" aria-label="선택">
+                      <option selected>1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                    </select>
+                    <span class="selectset-arrow"></span>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="selectset">
+                    <select class="selectset-select" aria-label="선택">
+                      <option selected>1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                    </select>
+                    <span class="selectset-arrow"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="row">
+                <div class="col">
+                  <div class="selectset selectset-sm">
+                    <select class="selectset-select" aria-label="선택">
+                      <option selected>1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                    </select>
+                    <span class="selectset-arrow"></span>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="selectset selectset-sm">
+                    <select class="selectset-select" aria-label="선택">
+                      <option selected>1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                      <option value="1234">1234</option>
+                    </select>
+                    <span class="selectset-arrow"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //container -->
+
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./views/view.js"></script>
+  <script src="./resources/template.js"></script>
+  <!-- //script -->
+</body>
+
+</html>

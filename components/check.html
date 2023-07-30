@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>요소</title>
+  <!-- style -->
+  <link rel="stylesheet" href="./views/view.css">
+  <link rel="stylesheet" href="./resources/template.css">
+  <!-- //style -->
+</head>
+
+<body>
+  <!-- container -->
+  <div class="template-container">
+    <h1 class="template-title"></h1>
+    <div class="template-asset">
+      <div class="row">
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset">
+                <input id="checkset-a-1-1" class="checkset-input input-line" type="checkbox" value="" checked>
+                <label class="checkset-label" for="checkset-a-1-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset">
+                <input id="checkset-a-2-1" class="checkset-input input-line" type="checkbox" aria-label="선택" value="" checked disabled>
+                <label class="checkset-label" for="checkset-a-2-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset">
+                <input id="checkset-a-3-1" class="checkset-input input-line" type="checkbox" value="" checked>
+                <label class="checkset-label" for="checkset-a-3-1"></label>
+                <span class="checkset-text">템플릿하우스</span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset checkset-sm">
+                <input id="checkset-a-4-1" class="checkset-input input-line" type="checkbox" value="" checked>
+                <label class="checkset-label" for="checkset-a-4-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset checkset-sm">
+                <input id="checkset-a-5-1" class="checkset-input input-line" type="checkbox" value="" checked disabled>
+                <label class="checkset-label" for="checkset-a-5-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset checkset-sm">
+                <input id="checkset-a-6-1" class="checkset-input input-line" type="checkbox" value="" checked>
+                <label class="checkset-label" for="checkset-a-6-1"></label>
+                <span class="checkset-text">템플릿하우스</span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset">
+                <input id="checkset-b-1-1" class="checkset-input input-fill" type="checkbox" value="" checked>
+                <label class="checkset-label" for="checkset-b-1-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset">
+                <input id="checkset-b-2-1" class="checkset-input input-fill" type="checkbox" value="" disabled checked>
+                <label class="checkset-label" for="checkset-b-2-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset">
+                <input id="checkset-b-3-1" class="checkset-input input-fill" type="checkbox" value="" checked>
+                <label class="checkset-label" for="checkset-b-3-1"></label>
+                <span class="checkset-text">템플릿하우스</span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset checkset-sm">
+                <input id="checkset-b-4-1" class="checkset-input input-fill" type="checkbox" value="" checked>
+                <label class="checkset-label" for="checkset-b-4-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset checkset-sm">
+                <input id="checkset-b-5-1" class="checkset-input input-fill" type="checkbox" value="" checked disabled>
+                <label class="checkset-label" for="checkset-b-5-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset checkset-sm">
+                <input id="checkset-b-6-1" class="checkset-input input-fill" type="checkbox" value="" checked>
+                <label class="checkset-label" for="checkset-b-6-1"></label>
+                <span class="checkset-text">템플릿하우스</span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset">
+                <input id="checkset-c-1-1" class="checkset-input input-round" type="checkbox" value="" checked>
+                <label class="checkset-label" for="checkset-c-1-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset">
+                <input id="checkset-c-2-1" class="checkset-input input-round" type="checkbox" value="" checked disabled>
+                <label class="checkset-label" for="checkset-c-2-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset">
+                <input id="checkset-c-3-1" class="checkset-input input-round" type="checkbox" value="" checked>
+                <label class="checkset-label" for="checkset-c-3-1"></label>
+                <span class="checkset-text">템플릿하우스</span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset checkset-sm">
+                <input id="checkset-c-4-1" class="checkset-input input-round" type="checkbox" aria-label="선택" value="" checked>
+                <label class="checkset-label" for="checkset-c-4-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset checkset-sm">
+                <input id="checkset-c-5-1" class="checkset-input input-round" type="checkbox" aria-label="선택" value="" checked disabled>
+                <label class="checkset-label" for="checkset-c-5-1"></label>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset checkset-sm">
+                <input id="checkset-c-6-1" class="checkset-input input-round" type="checkbox" value="" checked>
+                <label class="checkset-label" for="checkset-c-6-1"></label>
+                <span class="checkset-text">템플릿하우스</span>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset-wrap">
+                <div class="checkset">
+                  <input id="checkset-d-1-1" class="visually-hidden" type="checkbox" value="" checked>
+                  <label class="checkset-thumb thumb-round" for="checkset-d-1-1">템플릿</label>
+                </div>
+                <div class="checkset">
+                  <input id="checkset-d-1-2" class="visually-hidden" type="checkbox" value="" disabled>
+                  <label class="checkset-thumb thumb-round" for="checkset-d-1-2">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset-wrap">
+                <div class="checkset checkset-sm">
+                  <input id="checkset-d-2-1" class="visually-hidden" type="checkbox" value="" checked>
+                  <label class="checkset-thumb thumb-round" for="checkset-d-2-1">템플릿</label>
+                </div>
+                <div class="checkset checkset-sm">
+                  <input id="checkset-d-2-2" class="visually-hidden" type="checkbox" value="" disabled>
+                  <label class="checkset-thumb thumb-round" for="checkset-d-2-2">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset-wrap">
+                <div class="checkset">
+                  <input id="checkset-d-3-1" class="visually-hidden" type="checkbox" value="" checked>
+                  <label class="checkset-thumb thumb-square" for="checkset-d-3-1">템플릿</label>
+                </div>
+                <div class="checkset">
+                  <input id="checkset-d-3-2" class="visually-hidden" type="checkbox" value="" disabled>
+                  <label class="checkset-thumb thumb-square" for="checkset-d-3-2">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset-wrap">
+                <div class="checkset checkset-sm">
+                  <input id="checkset-d-4-1" class="visually-hidden" type="checkbox" value="" checked>
+                  <label class="checkset-thumb thumb-square" for="checkset-d-4-1">템플릿</label>
+                </div>
+                <div class="checkset checkset-sm">
+                  <input id="checkset-d-4-2" class="visually-hidden" type="checkbox" value="" disabled>
+                  <label class="checkset-thumb thumb-square" for="checkset-d-4-2">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset-wrap">
+                <div class="checkset">
+                  <input id="checkset-e-1-1" class="visually-hidden" type="checkbox" value="" checked>
+                  <label class="checkset-thumb thumb-round thumb-chk" for="checkset-e-1-1">템플릿</label>
+                </div>
+                <div class="checkset">
+                  <input id="checkset-e-1-2" class="visually-hidden" type="checkbox" value="" disabled>
+                  <label class="checkset-thumb thumb-round thumb-chk" for="checkset-e-1-2">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset-wrap">
+                <div class="checkset checkset-sm">
+                  <input id="checkset-e-2-1" class="visually-hidden" type="checkbox" value="" checked>
+                  <label class="checkset-thumb thumb-round thumb-chk" for="checkset-e-2-1">템플릿</label>
+                </div>
+                <div class="checkset checkset-sm">
+                  <input id="checkset-e-2-2" class="visually-hidden" type="checkbox" value="" disabled>
+                  <label class="checkset-thumb thumb-round thumb-chk" for="checkset-e-2-2">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset-wrap">
+                <div class="checkset">
+                  <input id="checkset-e-3-1" class="visually-hidden" type="checkbox" value="" checked>
+                  <label class="checkset-thumb thumb-square thumb-chk" for="checkset-e-3-1">템플릿</label>
+                </div>
+                <div class="checkset">
+                  <input id="checkset-e-3-2" class="visually-hidden" type="checkbox" value="" disabled>
+                  <label class="checkset-thumb thumb-square thumb-chk" for="checkset-e-3-2">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="checkset-wrap">
+                <div class="checkset checkset-sm">
+                  <input id="checkset-e-4-1" class="visually-hidden" type="checkbox" value="" checked>
+                  <label class="checkset-thumb thumb-square thumb-chk" for="checkset-e-4-1">템플릿</label>
+                </div>
+                <div class="checkset checkset-sm">
+                  <input id="checkset-e-4-2" class="visually-hidden" type="checkbox" value="" disabled>
+                  <label class="checkset-thumb thumb-square thumb-chk" for="checkset-e-4-2">하우스</label>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //container -->
+
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./views/view.js"></script>
+  <script src="./resources/template.js"></script>
+  <!-- //script -->
+</body>
+
+</html>

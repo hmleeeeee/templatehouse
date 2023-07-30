@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>요소</title>
+  <!-- style -->
+  <link rel="stylesheet" href="./views/view.css">
+  <link rel="stylesheet" href="./resources/template.css">
+  <!-- //style -->
+</head>
+
+<body>
+  <!-- container -->
+  <div class="template-container">
+    <h1 class="template-title"></h1>
+    <div class="template-asset">
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="toastset" style="position: relative; bottom: 0; right: 0;">
+                <div class="toastset-header">
+                  <h2 class="toastset-tit">토스트 메세지 알림</h2>
+                  <button typze="button" class="toastset-close"></button>
+                </div>
+                <div class="toastset-body">
+                  <p class="toastset-desc">
+                    템플릿 하우스는 코딩을 가장 쉽고 빠르게 할 수 있는 웹 페이지
+                    빌더입니다. 코딩 시간을 단축시키고 업무 생상선을 높인는
+                    가장 강력한 전문가 도구입니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="toastset toastset-alert toastset-success" style="position: relative; bottom: 0; right: 0;">
+                <div class="toastset-body">
+                  <div class="toastset-icon"></div>
+                  <div class="toastset-group">
+                    <h2 class="toastset-tit">회원가입 성공</h2>
+                    <p class="toastset-desc">
+                      템플릿 하우스 회원가입을 완료하였습니다.
+                    </p>
+                  </div>
+                </div>
+                <button type="button" class="toastset-close"></button>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="toastset toastset-alert toastset-warning" style="position: relative; bottom: 0; right: 0;">
+                <div class="toastset-body">
+                  <div class="toastset-icon"></div>
+                  <div class="toastset-group">
+                    <h2 class="toastset-tit">회원가입 경고</h2>
+                    <p class="toastset-desc">
+                      템플릿 하우스 회원가입에 경고가 발생했습니다.
+                    </p>
+                  </div>
+                </div>
+                <button type="button" class="toastset-close"></button>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="toastset toastset-alert toastset-error" style="position: relative; bottom: 0; right: 0;">
+                <div class="toastset-body">
+                  <div class="toastset-icon"></div>
+                  <div class="toastset-group">
+                    <h2 class="toastset-tit">회원가입 에러</h2>
+                    <p class="toastset-desc">
+                      템플릿 하우스 회원가입에 에러가 발생했습니다.
+                    </p>
+                  </div>
+                </div>
+                <button type="button" class="toastset-close"></button>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="toastset toastset-message" style="position: relative; bottom: 0; right: 0;">
+                <div class="toastset-body">
+                  <p class="toastset-desc">
+                    템플릿 하우스 토스트 메시지 입니다.
+                  </p>
+                </div>
+                <button type="button" class="toastset-close"></button>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div data-asset="wrap">
+            <div data-asset="html">
+              <div class="toastset toastset-message toastset-opacity" style="position: relative; bottom: 0; right: 0;">
+                <div class="toastset-body">
+                  <p class="toastset-desc">
+                    템플릿 하우스 토스트 메시지 입니다.
+                  </p>
+                </div>
+                <button type="button" class="toastset-close"></button>
+              </div>
+            </div>
+            <div data-asset="add" draggable="true" th-dragitem="true">드래그</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //container -->
+
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./views/view.js"></script>
+  <script src="./resources/template.js"></script>
+  <!-- //script -->
+</body>
+
+</html>
