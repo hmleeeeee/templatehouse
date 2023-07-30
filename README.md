@@ -17,3 +17,11 @@
 - 템플릿 리소스
 
 # [templates > resources] 구성
+## [css]
+### `plugin.css`
+- 외부 CDN URL
+- @import 방식으로 추가
+- URL에서 'http:', 'https:' 제거
+```html
+@import url('//cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.3/swiper-bundle.css');
+```
